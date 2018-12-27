@@ -5,7 +5,7 @@
  */
 package de.zray.renderbackends.vulkan;
 
-import de.zray.se.Settings;
+import de.zray.se.EngineSettings;
 import de.zray.se.renderbackend.RenderBackend;
 import de.zray.se.world.World;
 import javax.vecmath.Vector3d;
@@ -27,7 +27,7 @@ public class VKRenderer implements RenderBackend{
     }
 
     @Override
-    public void renderWorld(Settings.DebugMode dMode) {
+    public void renderWorld(EngineSettings.DebugMode dMode) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
