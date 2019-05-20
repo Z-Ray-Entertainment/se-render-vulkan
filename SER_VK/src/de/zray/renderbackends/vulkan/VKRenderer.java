@@ -90,5 +90,10 @@ public class VKRenderer implements RenderBackend{
     public boolean featureTest() {
         return false;
     }
+
+    @Override
+    public String getClassAsString() {
+        return VKRenderer.class.toString();
+    }
     
 }
