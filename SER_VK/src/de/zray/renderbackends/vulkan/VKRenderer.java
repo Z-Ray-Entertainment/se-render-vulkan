@@ -8,7 +8,7 @@ package de.zray.renderbackends.vulkan;
 import de.zray.se.EngineSettings;
 import de.zray.se.renderbackend.RenderBackend;
 import de.zray.se.world.World;
-import javax.vecmath.Vector3d;
+import org.joml.Vector3d;
 
 /**
  *
